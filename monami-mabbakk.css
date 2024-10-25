@@ -1,0 +1,71 @@
+@import url(common.css);
+
+* {
+  font-family: sans-serif;
+}
+/* input::placeholder */
+
+header {
+  background: lightgray;
+  height: 150px;
+}
+
+header .top {
+  border: 3px solid red;
+  display: flex;
+}
+header h1 .language {
+  border: 3px solid green;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .social-media {
+  border: 3px solid orange;
+  width: 15%;
+}
+
+header .top-links {
+  border: 3px solid blue;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .gnb {
+  border: 3px solid yellow;
+  display: flex;
+}
+
+
+
+
+
+section .title {
+  background: url('./img/page_visual1.jpg') no-repeat;
+  height: 35vh;
+  /* border: 3px solid violet; */
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.title .kr {
+  /* border: 3px solid yellowgreen; */
+  font-size: 32px;
+  color: #fff;
+  font-weight: 550;
+  margin-left: 43.5%
+}
+
+.title p {
+  color: #fff;
+  /* border: 3px solid gray; */
+  position: absolute;
+  right: 44%;
+  bottom: 25%;
+  font-weight: 300;
+  font-size: 15px;
+}
