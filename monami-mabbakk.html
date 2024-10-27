@@ -7,146 +7,247 @@
     <link rel="stylesheet" href="monami-mabbakk.css" />
   </head>
   <body>
-    <header>
-      <!-- 헤더 윗부분 -->
-      <h1 class="top">
-        <div class="language">
-          <select id="language-select">
-            <option value="kor">KOR</option>
-            <option value="eng">ENG</option>
-          </select>
-        </div>
+    <div class="wrap">
+      <header>
+        <!-- 헤더 윗부분 -->
+        <h1 class="top">
+          <div class="language">
+            <select id="language-select">
+              <option value="kor">KOR</option>
+              <option value="eng">ENG</option>
+            </select>
+          </div>
 
-        <nav class="social-media">
-          <ul>
+          <nav class="social-media">
+            <ul class="media-box">
+              <li>
+                <a href="#" class="icon"
+                  ><img
+                    src="https://www.monami.com/images/common/sns_facebook.gif"
+                    alt="Facebook"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="icon"
+                  ><img
+                    src="https://www.monami.com/images/common/sns_insta.gif"
+                    alt="Instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="icon"
+                  ><img
+                    src="https://www.monami.com/images/common/sns_youtube.png"
+                    alt="YouTube"
+                  />
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="top-links">
+            <a href="#">HOME</a> ㅣ <a href="#">SITE MAP</a> ㅣ
+            <a href="#">CONTACT US</a>
+          </div>
+        </h1>
+        <!-- 헤더 아랫부분 -->
+        <h2 class="bottom">
+          <a href="#" class="logo">
+            <img
+              src="https://www.monami.com/images/common/logo.jpg"
+              alt="Monami-Logo"
+            />
+          </a>
+          <ul class="nav-menu">
+            <li><a href="#">모나미소개</a></li>
+            <li><a href="#">모나미제품</a></li>
+            <li><a href="#">NEWS & VIDEO</a></li>
+            <li><a href="#">모나미 미술대회</a></li>
+            <li><a href="#">고객지원</a></li>
+            <li><a href="#">기업 구매 / 개발</a></li>
+          </ul>
+          <nav class="snb">
             <li>
-              <a href="#" class="icon"><img src="#" alt="Facebook" /> </a>
+              <a href="#" class="search-icon">
+                <i class="fas fa-search"></i>
+              </a>
             </li>
             <li>
-              <a href="#" class="icon"><img src="#" alt="Instagram" /> </a>
+              <a href="#" class="menu-icon">
+                <i class="fas fa-bars"></i>
+              </a>
             </li>
-            <li>
-              <a href="#" class="icon"><img src="#" alt="YouTube" /> </a>
+          </nav>
+        </h2>
+      </header>
+
+      <!-- 페이지 메인 -->
+      <main>
+        <section class="intro">
+          <div class="title">
+            <h3 class="kr">모나미소개</h3>
+            <div class="red-line"></div>
+            <p>언제 어디서나 모나미는 당신 곁에 있습니다.</p>
+          </div>
+          <div class="sub-con-box">
+            <div class="inner">
+              <ul>
+                <li><a href="#">CEO 메시지</a></li>
+                <li class="tab-red"><a href="#">회사정보</a></li>
+                <li><a href="#">회사연혁</a></li>
+                <li><a href="#">윤리강령</a></li>
+                <li><a href="#">투자정보</a></li>
+                <li><a href="#">CI</a></li>
+                <li><a href="#">찾아오시는 길</a></li>
+                <li><a href="#">안전보건 경영방침</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <div class="container-01">
+          <h1 class="sub-title">COMPANY <span>INFO</span></h1>
+          <div class="red-line"></div>
+          <h2>
+            <div class="num-red">01</div>
+            <div class="sub-title-int">계열사 소개</div>
+          </h2>
+          <ul class="card-box">
+            <li class="card">
+              <div class="logo">
+                <img
+                  src="https://www.monami.com/images/page/company_info2_logo5.png"
+                  alt="up-logo"
+                />
+              </div>
+              <gallery class="img-box">
+                <img
+                  src="https://www.monami.com/images/page/company_info2_img5.png"
+                  alt="Monami Cosmetics"
+                />
+              </gallery>
+              <div class="text-box">
+                <h3>고품질 색조 전문<br />OEM/ODM 기업</h3>
+                <a href="#">사이트 바로가기 →</a>
+              </div>
+            </li>
+            <li class="card">
+              <div class="logo">
+                <img
+                  src="https://www.monami.com/images/page/company_info2_logo1.jpg"
+                  alt="up-logo"
+                />
+              </div>
+              <gallery class="img-box">
+                <img
+                  src="https://www.monami.com/images/page/company_info2_img1_240612.png"
+                  alt="Hangso"
+                />
+              </gallery>
+              <div class="text-box">
+                <h3>PARKER/WATERMAN<br />TOMBOW 국내 공식 수입업체</h3>
+                <a href="#">사이트 바로가기 →</a>
+              </div>
+            </li>
+            <li class="card">
+              <div class="logo">
+                <img
+                  src="https://www.monami.com/images/page/company_info2_logo6.png"
+                  alt="up-logo"
+                />
+              </div>
+              <gallery class="img-box">
+                <img
+                  src="https://www.monami.com/images/page/company_info2_img3_240612.png"
+                  alt="Plamax"
+                />
+              </gallery>
+              <div class="text-box">
+                <h3>모나미 문구제품 전문<br />제조 기업</h3>
+                <a href="#">사이트 바로가기 →</a>
+              </div>
+            </li>
+            <li class="card">
+              <div class="logo">
+                <img
+                  src="https://www.monami.com/images/page/company_info2_logo2.jpg"
+                  alt="up-logo"
+                />
+              </div>
+              <gallery class="img-box">
+                <img
+                  src="https://www.monami.com/images/page/company_info2_img2_240612.png"
+                  alt="Monami Imaging Solutions"
+                />
+              </gallery>
+              <div class="text-box">
+                <h3>HP 전산용품 & 통합출력관리<br />서비스 솔루션 공급</h3>
+                <a href="#">사이트 바로가기 →</a>
+              </div>
             </li>
           </ul>
-        </nav>
-
-        <div class="top-links">
-          <a href="#">HOME</a> ㅣ <a href="#">SITE MAP</a> ㅣ
-          <a href="#">CONTACT US</a>
         </div>
-      </h1>
 
-      <!-- 헤더 아랫부분 -->
-      <div class="gnb">
-        <a href="#" class="logo">
-          <img
-            src="https://www.monami.com/images/common/logo.jpg"
-            alt="Monami-Logo"
-          />
+        <div class="container-02">
+          <h2>
+            <div class="num-red">02</div>
+            <div class="sub-title-int">해외법인</div>
+          </h2>
+          <div class="map-area">
+            <img
+              src="https://www.monami.com/images/page/company_info3_img1.jpg"
+              alt="map-image"
+            />
+          </div>
+
+          <ul class="text-info">
+            <div class="contact-list">
+              <div class="contact-card">
+                  <h3><span class="country">THAILAND</span> 모나미 타일랜드 (방콕)</h3>
+                  <p><strong>법인명</strong> MONAMI THAILAND</p>
+                  <p><strong>주소</strong> #475 Siripinyo Bldg., 12th floor, Si Ayutthaya Rd., Khwaeng Thanon Phayathai, Khet Ratchathewi, Bangkok 10400 Thailand</p>
+                  <p><strong>전화</strong> +66-2-640-0980-2</p>
+                  <p><strong>팩스</strong> +66-2-640-0980-2</p>
+                  <p><strong>SNS</strong> <a href="https://www.facebook.com/monami.thailand/" target="_blank">facebook.com/monami.thailand</a></p>
+              </div>
+              
+              <div class="contact-card">
+                  <h3><span class="country">THAILAND</span> 모나미 타일랜드 (아마타 공장)</h3>
+                  <p><strong>주소</strong> Amata City Industrial Estate 7/281 Moo. 6 Mabyangporn, Pluakdang, Rayong 21140 Thailand</p>
+                  <p><strong>전화</strong> +66-38-6508091-4218</p>
+              </div>
+              
+              <div class="contact-card">
+                  <h3><span class="country">CHINA</span> 상해 모나미 (상하이)</h3>
+                  <p><strong>법인명</strong> 上海嘉那美文仪用品有限公司 (SHANGHAI MONAMI)</p>
+                  <p><strong>홈페이지</strong> <a href="http://www.monami.com.cn" target="_blank">www.monami.com.cn</a></p>
+                  <p><strong>주소(중문)</strong> 中国上海嘉定工业区兴贤路1388号9号楼</p>
+                  <p><strong>주소(영문)</strong> Building No.9 1388 XingXian Road, Jiading Industrial District, Shanghai, China</p>
+                  <p><strong>전화</strong> +86-21-69521210-69512116</p>
+                  <p><strong>팩스</strong> +86-21-69521250-69160776</p>
+                  <p><strong>SNS</strong> <a href="https://weibo.com/shmonami" target="_blank">weibo.com/shmonami</a></p>
+              </div>
+              
+              <div class="contact-card">
+                  <h3><span class="country">POLAND</span> 제니스 모나미 (바르샤바)</h3>
+                  <p><strong>법인명</strong>ZENITH MONAMI</p>
+                  <p><strong>주소</strong>ul. Poleczki 23, 02-822, Warsaw, Poland.</p>
+              </div>
+          </div>
+      
+
+        <!-- <div class="small-box">
+        <a href="#" class="arrow-up">
+          <i class="far fa-arrow-up"></i>
         </a>
-        <ul class="nav-menu">
-          <li><a href="#">모나미소개</a></li>
-          <li><a href="#">모나미제품</a></li>
-          <li><a href="#">NEWS & VIDEO</a></li>
-          <li><a href="#">모나미 미술대회</a></li>
-          <li><a href="#">고객지원</a></li>
-          <li><a href="#">기업 구매 / 개발</a></li>
-        </ul>
+      </main> -->
+      
 
-        <ul class="snb">
-          <li>
-            <a href="#" class="search-icon">
-              <img src="" alt="search" />
-            </a>
-          </li>
-          <li>
-            <a href="#" class="menu-icon">
-              <img src="#" alt="bar" />
-            </a>
-          </li>
-        </ul>
-      </div>
-    </header>
-
-    <!-- 페이지 메인 -->
-
-    <section class="intro">
-      <div class="title">
-        <h2 class="kr">모나미 소개</h2>
-        <p>언제 어디서나 모나미는 당신 곁에 있습니다.</p>
-      </div>
-      <div class="sub-container img-box">
-        <div class="inner">
-          <ul>
-            <li><a href="#">CEO 메시지</a></li>
-            <li><a href="#">회사정보</a></li>
-            <li><a href="#">회사연혁</a></li>
-            <li><a href="#">윤리강령</a></li>
-            <li><a href="#">투자정보</a></li>
-            <li><a href="#">CI</a></li>
-            <li><a href="#">찾아오시는 길</a></li>
-            <li><a href="#">안전보건 경영방침</a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <div class="container-01">
-      <h1 class="sub-title">COMPANY INFO</h1>
-      <h2>계열사 소개</h2>
-      <ul class="card-box">
-        <li class="card">
-          <img
-            src="https://www.monami.com/images/page/company_info2_img5.png"
-            alt="Monami Cosmetics"
-          />
-          <h3>고품질 색조 전문<br />OEM/ODM 기업</h3>
-          <a href="#">사이트 바로가기 →</a>
-        </li>
-        <li class="card">
-          <img
-            src="https://www.monami.com/images/page/company_info2_img1_240612.png"
-            alt="Hangso"
-          />
-          <h3>PARKER/WATERMAN<br />TOMBOW 국내 공식 수입업체</h3>
-          <a href="#">사이트 바로가기 →</a>
-        </li>
-        <li class="card">
-          <img
-            src="https://www.monami.com/images/page/company_info2_img3_240612.png"
-            alt="Plamax">
-          <h3>모나미 문구제품 전문<br />제조 기업</h3>
-          <a href="#">사이트 바로가기 →</a>
-        </li>
-        <li class="card">
-          <img
-            src="https://www.monami.com/images/page/company_info2_img2_240612.png"
-            alt="Monami Imaging Solutions">
-          <h3>HP 전산용품 & 통합출력관리<br />서비스 솔루션 공급</h3>
-          <a href="#">사이트 바로가기 →</a>
-        </li>
-      </ul>
+      <footer>
+        <div class="bottom">푸터</div>
+      </footer>
     </div>
-
-    <div class="container-02">
-      <h1 class="sub-title">해외법인</h1>
-      <div class="map-area">
-        <img
-          src="https://www.monami.com/images/page/company_info3_img1.jpg"
-          alt="map-image">
-      </div>
-      <ul class="text-info">
-        <li class="area01"></li>
-        <li class="area02"></li>
-        <li class="area03"></li>
-        <li class="area04"></li>
-      </ul>
-    </div>
-
-    <!-- 푸터 -->
-    <footer>
-      <div class="bottom">푸터</div>
-    </footer>
   </body>
 </html>
