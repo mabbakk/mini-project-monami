@@ -4,10 +4,6 @@
   font-family: "Noto Sans KR", sans-serif
 }
 
-.wrap {
-  font-size: 15px;
-}
-
 body {
   height: 2000px;
 }
@@ -19,20 +15,31 @@ body {
 
 header {
   background: #fff;
+  /* border: 4px solid #000; */
   position: fixed;
-  top: 0;
+  margin: 0 auto;
   width: 100%;
   z-index: 100;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #ddd;
+}
+
+.wrap {
+  /* border: 4px dashed orange; */
+  width: 75%;
+  margin: 0 auto;
+}
+
+header .top,
+header .bottom {
+  /* border: 4px solid red; */
 }
 
 header .top {
-  /* border: 4px solid blue; */
-  margin: 0 50px 0 50px;
+  margin: 0 auto;
   font-weight: 300;
   font-size: 12px;
   padding: 10px;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #ddd;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +57,7 @@ header #language-select {
   width: 95%;
   height: 28px;
   border-radius: 8.5px;
-  border: 1px solid lightgray;
+  border: 1px solid #ddd;
   color: #666;
   text-align: center;
 }
@@ -75,24 +82,22 @@ header .top-links {
   flex: 1;
   font-size: 11px;
   letter-spacing: 1px;
-  color: #666;
+  color: #9a9a9a;
   margin-top: 12px;
   margin-left: 10px;
 }
 
 
 header .bottom {
-  margin: 0 50px;
+  /* margin: 0 50px; */
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 header h2 .logo {
   /* border: 4px solid red; */
   flex: 1;
   margin-top: 5px;
-  margin-right: 55px;
+  margin-right: 120px;
 }
 
 header .bottom .nav-menu {
@@ -100,9 +105,8 @@ header .bottom .nav-menu {
   display: flex;
   flex: 7;
   justify-content: space-between;
-  margin-left: 60px;
-  margin-right: 30px;
-  font-size: 17px;
+  margin: auto;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -114,8 +118,19 @@ header .snb {
   font-weight: lighter;
   color: #666;
   justify-content: end;
-  margin-right: 10px;
 }
+
+header .snb ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+header .snb li .search-icon{
+  margin-right: 25px;
+}
+
+
 
 
 /*============header style============*/
@@ -141,10 +156,12 @@ main .arrow-up {
 } */
 
 main .intro {
+  /* border: 4px solid red; */
   background: url(./img/page_visual1.jpg)
     no-repeat center/cover;
   width: 100%;
-  height: 320px;
+  height: 360px;
+  position: relative;
 }
 
 main .title {
@@ -163,6 +180,7 @@ main .red-line {
   display: block;
   text-align: center;
 }
+
 main .kr {
   /* background: red; */
   font-size: 34px;
@@ -170,17 +188,23 @@ main .kr {
   font-weight: 550;
 }
 
-main p {
+main .intro .title p {
   /* background: orange; */
   font-weight: 300;
+  font-size: 14px;
 }
 
+.intro .wrap {
+  position: absolute;
+  left: 50%;
+  bottom: -40px;
+  transform: translate(-50%, 0);
+}
 main .sub-con-box {
   background: #fff;
-  border: 1px solid lightgray;
+  border: 1px solid #ddd;
   border-top: none;
   color: #fff;
-  margin: 0 60px;
   text-align: center;
 }
 
@@ -211,18 +235,19 @@ main .inner ul .tab-red {
 main .container-01 {
   /* border: 4px solid green; */
   margin-top: 80px;
-  padding: 55px;
   padding-bottom: 75px;
 }
 
 main .sub-title {
+  /* border: 4px solid green; */
   font-family: "Montserrat", sans-serif;
-  margin: auto;
+  width: 75%;
+  margin: 50px auto 10px;
   font-size: 38px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 10px;
   letter-spacing: 2px;
+  padding-top: 35px;
 }
 
 main .container-01 .red-line {
@@ -256,7 +281,7 @@ main  h2 .num-red {
 main .sub-title-int {
   /* background: violet; */
   margin-left: 13px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 200;
 }
 
@@ -268,7 +293,7 @@ main .container-01 ul.card-box {
 }
 
 main ul .card {
-  border: 1px solid lightgray;
+  border: 1px solid #ddd;
   width: 24%;
 }
 
@@ -298,7 +323,7 @@ main .card .img-box img {
 main ul .text-box {
   background: #fff;
   padding: 35px;
-  border: 1px solid lightgray;
+  border: 1px solid #ddd;
   border-top: none;
 }
 
@@ -317,13 +342,14 @@ main ul .text-box a {
   margin: 0;
   display: block;
   text-align: center;
-  border: 1px solid lightgray;
+  border: 1px solid #ddd;
 }
 
 
 main .container-02 {
   /* background: gray; */
-  margin: 130px 55px;
+  margin: 0 auto;
+  padding-top: 140px;
 }
 
 main .container-02 h2 {
@@ -336,20 +362,28 @@ main .map-area {
   margin-top: 27px;
 }
 
+main .map-area img {
+  width: 100%;
+}
+
 main .text-info {
   /* border: 3px solid blue; */
 }
 
 main .text-info .contact-list {
   /* background: lightcoral; */
-  margin-right: 10px;
   margin-bottom: 280px;
 }
 
 main .text-info .contact-card {
   /* background: yellowgreen; */
   border: 1px solid #ddd;
+  border-bottom: none;
   padding: 40px 47px;
+}
+
+main .text-info .contact-card:last-child {
+  border-bottom: 1px solid #ddd;
 }
 
 main .text-info .contact-card .country {
