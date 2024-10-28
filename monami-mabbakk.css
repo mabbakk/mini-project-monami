@@ -425,6 +425,39 @@ main .text-info .contact-card p {
 /*============footer style============*/
 
 footer {
-  border: 4px solid #111;
-  height: 280px;
+  background: #111;
+  width: 100%;
+  font-size: 15px;
 }
+
+footer .bottom {
+  background: gray;
+  padding: 60px 0 35px;
+}
+
+footer .bottom .top {
+  border-bottom: 1px solid #333;
+  display: flex;
+  /* background: yellow; */
+  padding-bottom: 30px;
+  justify-content: space-between;
+}
+
+footer .bottom .top .sub-menu {
+  /* background: orange; */
+}
+
+footer .bottom .top .sub-menu li {
+  color: #666;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.5;
+}
+
+footer .bottom .top .sub-menu li .bold {
+  font-weight: 800;
+  font-size: 13px;
+  color: #ddd;
+}
+
+
