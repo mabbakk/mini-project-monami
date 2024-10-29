@@ -432,7 +432,12 @@ footer {
 
 footer .bottom {
   background: gray;
-  padding: 60px 0 35px;
+  padding-bottom: 50px;
+}
+
+footer .bottom .wrap-2 {
+  display: flex;
+  margin: 0;
 }
 
 footer .bottom .top {
@@ -440,8 +445,9 @@ footer .bottom .top {
     border-bottom: 1px solid #333;
   display: flex;
   /* background: yellow; */
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   justify-content: space-between;
+  padding-top: 65px;
 }
 
 footer .bottom .top .sub-menu {
@@ -461,4 +467,12 @@ footer .bottom .top .sub-menu li .bold {
   color: #ddd;
 }
 
+footer .bottom .sub-title-01 {
+  /* background: orange; */
+}
+
+footer .bottom .sub-title-02 p {
+  /* background: red; */
+
+}
 
